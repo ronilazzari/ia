@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkWindow" id="gamb.IA.rra">
+    <property name="can_focus">False</property>
+    <property name="halign">center</property>
+    <property name="valign">center</property>
+    <property name="resizable">False</property>
+    <property name="window_position">center</property>
+    <child>
+      <object class="GtkBox" id="box1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="halign">start</property>
+        <property name="valign">start</property>
+        <property name="margin_left">10</property>
+        <property name="margin_right">10</property>
+        <property name="margin_top">10</property>
+        <property name="margin_bottom">10</property>
+        <property name="homogeneous">True</property>
+        <child>
+          <object class="GtkFrame" id="frame1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">out</property>
+            <child>
+              <object class="GtkAlignment" id="alignment1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="top_padding">10</property>
+                <property name="bottom_padding">10</property>
+                <property name="left_padding">10</property>
+                <property name="right_padding">10</property>
+                <child>
+                  <object class="GtkBox" id="box2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkGrid" id="grid1">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="row_spacing">6</property>
+                        <property name="column_spacing">9</property>
+                        <child>
+                          <object class="GtkSeparator" id="separator1">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">0</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator2">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">0</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator3">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">0</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator4">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">0</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator5">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">0</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator6">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">0</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator7">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">0</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator8">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">10</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator10">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">10</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator12">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">10</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator14">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">10</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator15">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">9</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator16">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">8</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator17">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">7</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator18">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">6</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator19">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">5</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator20">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">4</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator21">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">3</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator22">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">2</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator23">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">1</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator24">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">9</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator25">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">8</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator26">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">7</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator27">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">6</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator28">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">5</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator29">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">4</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator30">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">3</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator31">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">2</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator32">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">6</property>
+                            <property name="top_attach">1</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator33">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">1</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator34">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">2</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator35">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">3</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator36">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">4</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator37">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">5</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator38">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">6</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator39">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">7</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator40">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">8</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator41">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">4</property>
+                            <property name="top_attach">9</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator42">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">8</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator43">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">9</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator44">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">7</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator45">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">6</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator46">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">5</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator47">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">4</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator48">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">3</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator49">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">2</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator50">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">2</property>
+                            <property name="top_attach">1</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator51">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">2</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator52">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">2</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator53">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">2</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label1">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">x1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">1</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label2">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">x2</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">1</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label3">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">y</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">1</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label4">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">-1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">3</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label5">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">-1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">3</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator54">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">4</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator55">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">4</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator56">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">4</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label7">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">-1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">5</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label8">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">5</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator57">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">6</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator58">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">6</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator59">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">6</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label10">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">7</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label11">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">-1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">7</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator60">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">8</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator61">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">8</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator62">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">8</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label13">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">9</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label14">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">1</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">9</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="saida1">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="invisible_char">●</property>
+                            <property name="width_chars">2</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">3</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="saida2">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="invisible_char">●</property>
+                            <property name="width_chars">2</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">5</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="saida3">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="invisible_char">●</property>
+                            <property name="width_chars">2</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">7</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="saida4">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="invisible_char">●</property>
+                            <property name="width_chars">2</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">9</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator9">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">10</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator11">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">3</property>
+                            <property name="top_attach">10</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator13">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">5</property>
+                            <property name="top_attach">10</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="b_treina">
+                        <property name="label" translatable="yes">Treinar</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <signal name="clicked" handler="clicaTreinar" swapped="no"/>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                        <property name="padding">10</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel" id="treinamento">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">&lt;b&gt;Treinamento&lt;/b&gt;</property>
+                <property name="use_markup">True</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame" id="frame3">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">center</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">none</property>
+            <child>
+              <object class="GtkSeparator" id="separador">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">center</property>
+                <property name="hexpand">True</property>
+                <property name="vexpand">True</property>
+                <property name="orientation">vertical</property>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkFixed" id="fixed1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame" id="frame2">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">out</property>
+            <child>
+              <object class="GtkAlignment" id="alignment2">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="top_padding">10</property>
+                <property name="bottom_padding">10</property>
+                <property name="left_padding">10</property>
+                <property name="right_padding">10</property>
+                <child>
+                  <object class="GtkBox" id="box3">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkBox" id="box4">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkSeparator" id="separator64">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="padding">7</property>
+                            <property name="position">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkBox" id="box5">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <child>
+                              <object class="GtkBox" id="box6">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="orientation">vertical</property>
+                                <child>
+                                  <object class="GtkLabel" id="label6">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="label" translatable="yes">x1</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkEntry" id="entrada1">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="invisible_char">●</property>
+                                    <property name="width_chars">2</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkSeparator" id="separator65">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="padding">7</property>
+                                <property name="position">1</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkBox" id="box7">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="orientation">vertical</property>
+                                <child>
+                                  <object class="GtkLabel" id="label9">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="label" translatable="yes">x2</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkEntry" id="entrada2">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="invisible_char">●</property>
+                                    <property name="width_chars">2</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">2</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkSeparator" id="separator66">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="padding">7</property>
+                                <property name="position">3</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkBox" id="box8">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="orientation">vertical</property>
+                                <child>
+                                  <object class="GtkLabel" id="label12">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="label" translatable="yes">y</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel" id="saida_teste">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">4</property>
+                              </packing>
+                            </child>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSeparator" id="separator63">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="padding">7</property>
+                            <property name="position">2</property>
+                          </packing>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="status">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="label" translatable="yes">Aguardando treinamento...</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="padding">2</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkSeparator" id="separator67">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="padding">7</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkBox" id="box9">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <child>
+                          <object class="GtkButton" id="b_novoTreino">
+                            <property name="label" translatable="yes">Novo treino</property>
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="receives_default">True</property>
+                            <signal name="clicked" handler="clicanovoTreino" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="padding">2</property>
+                            <property name="position">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkButton" id="b_testa">
+                            <property name="label" translatable="yes">Testar</property>
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="receives_default">True</property>
+                            <signal name="clicked" handler="clicaTestar" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="padding">2</property>
+                            <property name="pack_type">end</property>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">3</property>
+                      </packing>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel" id="validacao">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">&lt;b&gt;Validação&lt;/b&gt;</property>
+                <property name="use_markup">True</property>
+                <property name="justify">right</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

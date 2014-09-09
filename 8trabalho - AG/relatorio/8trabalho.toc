@@ -1,0 +1,25 @@
+\select@language {brazilian}
+\select@language {english}
+\select@language {brazilian}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {section}{\numberline {2}Gerando aleatoriamente a primeira gera\IeC {\c c}\IeC {\~a}o $G_0$}{6}
+\contentsline {section}{\numberline {3}Calculando a fun\IeC {\c c}\IeC {\~a}o de aptid\IeC {\~a}o e probabilidades de cada indiv\IeC {\'\i }duo da popula\IeC {\c c}\IeC {\~a}o}{6}
+\contentsline {subsection}{\numberline {3.1}Fun\IeC {\c c}\IeC {\~a}o de aptid\IeC {\~a}o}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}Dicion\IeC {\'a}rios ou \emph {hashes}}{7}
+\contentsline {subsection}{\numberline {3.2}Probabilidades dos indiv\IeC {\'\i }duos serem selecionados}{8}
+\contentsline {section}{\numberline {4}Selecionando os indiv\IeC {\'\i }duos da pr\IeC {\'o}xima gera\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {subsection}{\numberline {4.1}Princ\IeC {\'\i }pio de funcionamento da roleta}{11}
+\contentsline {section}{\numberline {5}Cruzando os indiv\IeC {\'\i }duos selecionados}{11}
+\contentsline {section}{\numberline {6}Mutando os indiv\IeC {\'\i }duos de uma gera\IeC {\c c}\IeC {\~a}o}{13}
+\contentsline {section}{\numberline {7}Resultados}{14}
+\contentsline {subsection}{\numberline {7.1}Varia\IeC {\c c}\IeC {\~a}o do n\IeC {\'u}mero de gera\IeC {\c c}\IeC {\~o}es}{14}
+\contentsline {subsection}{\numberline {7.2}Varia\IeC {\c c}\IeC {\~a}o do n\IeC {\'u}mero de indiv\IeC {\'\i }duos de uma popula\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {subsection}{\numberline {7.3}Varia\IeC {\c c}\IeC {\~a}o das probabilidades de cruzamento e de muta\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {subsubsection}{\numberline {7.3.1}Probabilidade total de cruzamento}{15}
+\contentsline {subsubsection}{\numberline {7.3.2}Diminui\IeC {\c c}\IeC {\~a}o da probabilidade de cruzamento}{16}
+\contentsline {subsubsection}{\numberline {7.3.3}Probabilidade total de muta\IeC {\c c}\IeC {\~a}o}{16}
+\contentsline {subsubsection}{\numberline {7.3.4}Aumento suave na probabilidade de muta\IeC {\c c}\IeC {\~a}o}{16}
+\contentsline {subsection}{\numberline {7.4}Supress\IeC {\~a}o da muta\IeC {\c c}\IeC {\~a}o}{16}
+\contentsline {subsection}{\numberline {7.5}Supress\IeC {\~a}o do cruzamento}{17}
+\contentsline {section}{\numberline {8}Conclus\IeC {\~o}es}{18}
+\contentsline {section}{\numberline {9}Refer\^encias}{19}

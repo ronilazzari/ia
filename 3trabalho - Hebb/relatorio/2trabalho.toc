@@ -1,0 +1,14 @@
+\select@language {brazilian}
+\select@language {english}
+\select@language {brazilian}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {section}{\numberline {2}A regra de Hebb}{4}
+\contentsline {subsection}{\numberline {2.1}Algoritmo para duas entradas e uma sa\IeC {\'\i }da}{4}
+\contentsline {section}{\numberline {3}Programa\IeC {\c c}\IeC {\~a}o}{5}
+\contentsline {subsection}{\numberline {3.1}Esbo\IeC {\c c}o da interface gr\IeC {\'a}fica}{5}
+\contentsline {subsection}{\numberline {3.2}Interface gr\IeC {\'a}fica em XML}{6}
+\contentsline {subsection}{\numberline {3.3}Construtor GTK+}{6}
+\contentsline {subsection}{\numberline {3.4}Programa feito: gamb.IA.rra}{7}
+\contentsline {section}{\numberline {4}Conclus\IeC {\~o}es}{7}
+\contentsline {section}{\numberline {5}Refer\^encias}{11}
+\contentsline {section}{Anexo}{12}
