@@ -1,7 +1,7 @@
 #include <time.h>
 #include <stdio.h>
-#include "rngs.h"
-#include "rvgs.h"
+#include "../lib/rngs.h"
+#include "../lib/rvgs.h"
 
 #define TAM 50
 
