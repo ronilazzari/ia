@@ -16,4 +16,14 @@ Os dois métodos são explicados a seguir.
 
 ### 1. Método: cmake & make
 
+Confira se você possui os programas *cmake* e *make* instalados em seu computador. Feito isso, copie todos os arquivos contidos no diretório _proj_. Em seguida, execute os seguintes comandos no console:
 
+1. `$ cmake .`
+
+2. `make`
+
+Pronto! O programa principal assim como a biblioteca deveriam ser gerados automagicamente.
+
+### 2. Método: tudo na unha
+
+A explicação para esse passo-a-passo vai ficar para depois, mas não é muito mais complicado que a anterior.
