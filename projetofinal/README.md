@@ -36,21 +36,21 @@ O passo-a-passo para compilar as duas bibliotecas feitas por [Steve Park](http:/
 1. Primeiramente navegue, dentro de _proj_, até o diretório _lib_:
 
 2. Por enquanto, dentro de _proj_/_lib_ deveria haver somente os seguintes arquivos:
-...`CMakeLists.txt  README.md  rngs.c  rngs.h  rvgs.c  rvgs.h`
+...	CMakeLists.txt  README.md  rngs.c  rngs.h  rvgs.c  rvgs.h
 
 3. Compile todos os arquivos terminados por _.c_ com o seguinte comando:
-...`$ gcc -Wall -pedantic-errors -c *.c`
-...> Uma mensagem de _warning_ vai aparecer, mas pode ser ignorada :-)
+...	$ gcc -Wall -pedantic-errors -c *.c
+...	> Uma mensagem de _warning_ vai aparecer, mas pode ser ignorada :-)
 
 4. Agora, dois novos arquivos com extensão _.o_ deveriam aparecer no diretório _lib:
-...`CMakeLists.txt  README.md  rngs.c  rngs.h  **rngs.o**  rvgs.c  rvgs.h  **rvgs.o**`
+...	CMakeLists.txt  README.md  rngs.c  rngs.h  **rngs.o**  rvgs.c  rvgs.h  **rvgs.o**
 
 5. Em seguida, empacotemos os dois novos arquivos em um só chamado _librandom.a_:
-...`$ ar -cvq librandom.a *.o`
+...	$ ar -cvq librandom.a *.o
 
 6. Pronto! Os arquivos existentes agora em seu diretório _lib_ deveriam ser os seguintes:
-...`CMakeLists.txt  README.md  rngs.h  rvgs.c  rvgs.o`
-...`librandom.a     rngs.c     rngs.o  rvgs.h`
+...	CMakeLists.txt  README.md  rngs.h  rvgs.c  rvgs.o
+...	librandom.a     rngs.c     rngs.o  rvgs.h
 
 2. Compilando o arquivo principal
 ---------------------------------
