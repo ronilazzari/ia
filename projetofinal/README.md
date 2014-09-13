@@ -37,7 +37,7 @@ O passo-a-passo para compilar as duas bibliotecas feitas por [Steve Park](http:/
 
 3. Compile todos os arquivos terminados por _.c_ com o seguinte comando:
 
-	$ gcc -Wall -pedantic-errors -c *.c
+	`$ gcc -Wall -pedantic-errors -c *.c`
 
 	> Uma mensagem de _warning_ vai aparecer, mas pode ser ignorada :-)
 
@@ -47,7 +47,7 @@ O passo-a-passo para compilar as duas bibliotecas feitas por [Steve Park](http:/
 
 5. Em seguida, empacotemos os dois novos arquivos em um só chamado _librandom.a_:
 
-	$ ar -cvq librandom.a *.o
+	`$ ar -cvq librandom.a *.o`
 
 6. Pronto! Os arquivos existentes agora em seu diretório _lib_ deveriam ser os seguintes:
 
@@ -56,3 +56,11 @@ O passo-a-passo para compilar as duas bibliotecas feitas por [Steve Park](http:/
 	librandom.a     rngs.c     rngs.o  rvgs.h
 
 #### 2. Compilando o arquivo principal
+
+Vá até o diretório _src_ dentro de _proj_ e execute os seguintes passos:
+
+1. (...)
+
+2. (...)
+
+3. (...)
