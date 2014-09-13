@@ -14,16 +14,43 @@ Há duas maneiras de compilar o código-fonte deste projeto.
 
 Os dois métodos são explicados a seguir.
 
-### 1. Método: cmake & make
+### Método 1: usando cmake & make
 
-Confira se você possui os programas *cmake* e *make* instalados em seu computador. Feito isso, copie todos os arquivos contidos no diretório _proj_. Em seguida, execute os seguintes comandos no console:
+Confira se você possui os programas *cmake* e *make* instalados em seu computador. Feito isso, copie todos os arquivos contidos no diretório _proj_. Em seguida, dentro de _proj_, execute os seguintes comandos no console:
 
 1. `$ cmake .`
 
-2. `make`
+2. `$ make`
 
-Pronto! O programa principal assim como a biblioteca deveriam ser gerados automagicamente.
+Pronto! O programa principal assim como a biblioteca deveriam ser gerados automagicamente. Por enquanto o executável se encontra em proj/src.
 
-### 2. Método: tudo na unha
+TODO: ainda me falta alterar o arquivo CMakeLists.txt para criar os binários fora dos diretórios com os códigos-fontes.
 
-A explicação para esse passo-a-passo vai ficar para depois, mas não é muito mais complicado que a anterior.
+### Método 2: na unha
+
+1. Compilando as bibliotecas
+----------------------------
+
+O passo-a-passo para compilar as duas bibliotecas feitas por [Steve Park](http://www.cs.wm.edu/~va/software/park/park.html) foi baseado no seguinte [link](http://www.cs.dartmouth.edu/~campbell/cs50/buildlib.html).
+
+1. Primeiramente navegue, dentro de _proj_, até o diretório _lib_:
+
+2. Por enquanto, dentro de _proj_/_lib_ deveria haver somente os seguintes arquivos:
+...`CMakeLists.txt  README.md  rngs.c  rngs.h  rvgs.c  rvgs.h`
+
+3. Compile todos os arquivos terminados por _.c_ com o seguinte comando:
+...`$ gcc -Wall -pedantic-errors -c *.c`
+...> Uma mensagem de _warning_ vai aparecer, mas pode ser ignorada :-)
+
+4. Agora, dois novos arquivos com extensão _.o_ deveriam aparecer no diretório _lib:
+...`CMakeLists.txt  README.md  rngs.c  rngs.h  **rngs.o**  rvgs.c  rvgs.h  **rvgs.o**`
+
+5. Em seguida, empacotemos os dois novos arquivos em um só chamado _librandom.a_:
+...`$ ar -cvq librandom.a *.o`
+
+6. Pronto! Os arquivos existentes agora em seu diretório _lib_ deveriam ser os seguintes:
+...`CMakeLists.txt  README.md  rngs.h  rvgs.c  rvgs.o`
+...`librandom.a     rngs.c     rngs.o  rvgs.h`
+
+2. Compilando o arquivo principal
+---------------------------------
