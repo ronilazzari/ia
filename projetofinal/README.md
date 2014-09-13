@@ -43,7 +43,7 @@ O passo-a-passo para compilar as duas bibliotecas feitas por [Steve Park](http:/
 
 4. Agora, dois novos arquivos com extensão _.o_ deveriam aparecer no diretório _lib_:
 
-	`CMakeLists.txt  README.md  rngs.c  rngs.h` **`rngs.o`**  `rvgs.c  rvgs.h`  **`rvgs.o`**
+	`CMakeLists.txt  README.md  rngs.c rngs.h <strong>rngs.o<\strong> rvgs.c rvgs.h rvgs.o`
 
 5. Em seguida, empacotemos os dois novos arquivos em um só chamado _librandom.a_:
 
