@@ -33,7 +33,7 @@ O passo-a-passo para compilar as duas bibliotecas feitas por [Steve Park](http:/
 
 2. Por enquanto, dentro de _proj_/_lib_ deveria haver somente os seguintes arquivos:
 
-	CMakeLists.txt  README.md  rngs.c  rngs.h  rvgs.c  rvgs.h
+	`CMakeLists.txt  README.md  rngs.c  rngs.h  rvgs.c  rvgs.h`
 
 3. Compile todos os arquivos terminados por _.c_ com o seguinte comando:
 
@@ -41,7 +41,7 @@ O passo-a-passo para compilar as duas bibliotecas feitas por [Steve Park](http:/
 
 	> Uma mensagem de _warning_ vai aparecer, mas pode ser ignorada :-)
 
-4. Agora, dois novos arquivos com extensão _.o_ deveriam aparecer no diretório _lib:
+4. Agora, dois novos arquivos com extensão _.o_ deveriam aparecer no diretório _lib_:
 
 	CMakeLists.txt  README.md  rngs.c  rngs.h  **rngs.o**  rvgs.c  rvgs.h  **rvgs.o**
 
